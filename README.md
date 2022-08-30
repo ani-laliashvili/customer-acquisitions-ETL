@@ -13,7 +13,7 @@ Running people.py will produce a people.csv file with primary email
 address, source code, subscription data and time record was created 
 and updated.
 
-##Schema for people.csv
+## Schema for people.csv
 Column		          Type		    Description
 email		            string		  Primary email address
 code		            string		  Source code
@@ -24,11 +24,11 @@ updated_dt	        datetime	  Person updated datetime
 Running acquisitions.py will then produce an acquisition_facts.csv file 
 with customer acquisition counts for each day. 
 
-##Schema for acquisitions.csv
+## Schema for acquisitions.csv
 Column			        Type		  Description
 acquisition_date	  date		  Calendar date of acquisition
 acquisitions		    int		    Number of constituents acquired on acquisition_date
 
 
-##Requirements:
+## Requirements:
 - pandas
