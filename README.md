@@ -14,8 +14,8 @@ address, source code, subscription data and time record was created
 and updated.
 
 ## Schema for people.csv
-Column		          Type		    Description \n
-email		            string		  Primary email address \n
+\n Column		          Type		    Description 
+\n email		            string		  Primary email address \n
 code		            string		  Source code \n
 is_unsub	          boolean		  Is the primary email address unsubscribed? \n
 created_dt	        datetime	  Person creation datetime \n
