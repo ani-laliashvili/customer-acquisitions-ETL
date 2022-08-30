@@ -1,8 +1,9 @@
-# ETL
+# Customer Acquisitions ETL
 
 The two scripts accompanying this README file are designed to analyze 
 daily customer acquisitions over time. 
 
+## People.py
 The following input files inside a 'data' directory are required for the
 process to run:
 - cons_email_chapter_subscription.csv 
@@ -13,7 +14,7 @@ Running people.py will produce a people.csv file with primary email
 address, source code, subscription data and time record was created 
 and updated.
 
-## Schema for people.csv
+#### Schema for people.csv
 |     Column        |     Type        |     Description                                   |
 |-------------------|-----------------|---------------------------------------------------|
 |     email         |     string      |     Primary email address                         |
@@ -22,10 +23,11 @@ and updated.
 |     created_dt    |     datetime    |     Person creation datetime                      |
 |     updated_dt    |     datetime    |     Person updated datetime                       |
 
+## Acquisions.py
 Running acquisitions.py will then produce an acquisition_facts.csv file 
 with customer acquisition counts for each day. 
 
-## Schema for acquisitions.csv
+#### Schema for acquisitions.csv
 |     Column              |     Type    |     Description                                            | 
 |-------------------------|-------------|------------------------------------------------------------|
 |     acquisition_date    |     date    |     Calendar date of acquisition                           |
