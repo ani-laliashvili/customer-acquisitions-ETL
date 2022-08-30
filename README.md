@@ -15,11 +15,11 @@ and updated.
 
 ## Schema for people.csv
 Column		          Type		    Description
-- email		            string		  Primary email address
-- code		            string		  Source code
-- is_unsub	          boolean		  Is the primary email address unsubscribed?
-- created_dt	        datetime	  Person creation datetime
-\n updated_dt	        datetime	  Person updated datetime
+\nemail		            string		  Primary email address
+\ncode		            string		  Source code
+\nis_unsub	          boolean		  Is the primary email address unsubscribed?
+\ncreated_dt	        datetime	  Person creation datetime
+\nupdated_dt	        datetime	  Person updated datetime
 
 Running acquisitions.py will then produce an acquisition_facts.csv file 
 with customer acquisition counts for each day. 
