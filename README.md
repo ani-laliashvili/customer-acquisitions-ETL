@@ -25,9 +25,11 @@ Running acquisitions.py will then produce an acquisition_facts.csv file
 with customer acquisition counts for each day. 
 
 ## Schema for acquisitions.csv
-Column			        Type		  Description
-acquisition_date	  date		  Calendar date of acquisition
-acquisitions		    int		    Number of constituents acquired on acquisition_date
+|     Column              |     Type    |     Description                                            | 
+|-------------------------|-------------|------------------------------------------------------------|
+|     acquisition_date    |     date    |     Calendar date of acquisition                           |
+|     acquisitions        |     int     |     Number of constituents acquired on acquisition_date    |
+|                         |             |                                                            |
 
 
 ## Requirements:
