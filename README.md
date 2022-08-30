@@ -32,7 +32,6 @@ with customer acquisition counts for each day.
 |-------------------------|-------------|------------------------------------------------------------|
 |     acquisition_date    |     date    |     Calendar date of acquisition                           |
 |     acquisitions        |     int     |     Number of constituents acquired on acquisition_date    |
-|                         |             |                                                            |
 
 
 ## Requirements:
